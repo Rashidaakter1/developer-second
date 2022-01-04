@@ -1,0 +1,20 @@
+body{
+    font-family: 'Pushster', cursive;
+}
+section{
+    display: flex;
+}
+h1{
+    font-size:50px;
+}
+.first-part{
+    width: 50%;
+    margin: 5%;
+    padding: 5%;
+}
+.first-part img{
+    width: 100%;
+    border: 10px solid gray;
+    border-radius:5px ;
+    border-image:linear-gradient( grey red);
+}
