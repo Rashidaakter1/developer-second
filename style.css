@@ -1,5 +1,6 @@
 body{
     font-family: 'Pushster', cursive;
+    margin: 0;
 }
 section{
     display: flex;
@@ -7,10 +8,18 @@ section{
 h1{
     font-size:50px;
 }
+h2{
+    font-size: 40px;
+    color: rebeccapurple;
+}
 .first-part{
     width: 50%;
-    margin: 5%;
+    
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 7%;
     padding: 5%;
+
 }
 .first-part img{
     width: 100%;
@@ -19,3 +28,27 @@ h1{
     border-image: linear-gradient(grey,red);
     border-image-slice: 1;
 }
+ span{
+     color: green;
+ }
+ .background-image{
+     background-image: url(images/top-banner.png);
+     background-repeat: no-repeat;
+     background-position: left;
+ }
+ .second-part{
+     font-size: 20px;
+     margin-top: 7%;
+     color: indigo;
+ }
+ .second-part-box{
+     border: 3px solid palevioletred;
+     box-shadow: 10px 10px purple;
+ }
+ #second-part-font{
+     color: palevioletred;
+ }
+ #third-part-img{
+     margin-top: 10%;
+     width: 100%;
+ }
