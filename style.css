@@ -14,7 +14,8 @@ h1{
 }
 .first-part img{
     width: 100%;
-    border: 10px solid gray;
-    border-radius:5px ;
-    border-image:linear-gradient( grey red);
+    border: 10px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(grey,red);
+    border-image-slice: 1;
 }
